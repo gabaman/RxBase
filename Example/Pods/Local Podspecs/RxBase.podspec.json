@@ -1,0 +1,33 @@
+{
+  "name": "RxBase",
+  "version": "0.1.0",
+  "summary": "Some Extension of RxSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://code.aihuishou.com/stan/RxBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "stan": "stan.shi@aihuishou.com"
+  },
+  "source": {
+    "git": "git@github.com:gabaman/RxBase.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "4.2",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "source_files": "RxBase/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+      "4.5.0"
+    ],
+    "RxCocoa": [
+      "4.5"
+    ]
+  },
+  "swift_version": "4.2"
+}
