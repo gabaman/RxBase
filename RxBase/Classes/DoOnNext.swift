@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import RxSwift
 
 extension ObservableType where E == Bool? {
     public func unWraped() -> Observable<Bool> {

@@ -1,5 +1,9 @@
 use_frameworks!
 
+source 'git@code.aihuishou.com:PTJ-APP/pod-specs-repo.git'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'git@github.com:gabaman/RxBase.git'
+
 target 'RxBase_Example' do
   pod 'RxBase', :path => '../'
 

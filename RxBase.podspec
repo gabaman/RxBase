@@ -35,6 +35,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'RxBase/Classes/**/*'
   s.dependency 'RxSwift', '4.5.0'
   s.dependency 'RxCocoa', '4.5'
+  s.dependency 'MJRefresh', '3.1.15'
   
   
   # s.resource_bundles = {

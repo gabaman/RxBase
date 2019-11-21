@@ -27,6 +27,9 @@
     ],
     "RxCocoa": [
       "4.5"
+    ],
+    "MJRefresh": [
+      "3.1.15"
     ]
   },
   "swift_version": "4.2"

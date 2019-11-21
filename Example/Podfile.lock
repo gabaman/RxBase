@@ -1,5 +1,7 @@
 PODS:
+  - MJRefresh (3.1.15)
   - RxBase (0.1.0):
+    - MJRefresh (= 3.1.15)
     - RxCocoa (= 4.5)
     - RxSwift (= 4.5.0)
   - RxCocoa (4.5.0):
@@ -11,6 +13,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - MJRefresh
     - RxCocoa
     - RxSwift
 
@@ -19,10 +22,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RxBase: 25ba65959f0ea3ed1eb432d5b21b58123ef69294
+  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
+  RxBase: 3a10e250b89db8983b9179699208d7055a077442
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
 
-PODFILE CHECKSUM: 8161847ee587ae649aa4d934a7de306332ab6355
+PODFILE CHECKSUM: cd80350c7d888af4727e8ecbe6b48345aaa455d2
 
 COCOAPODS: 1.7.5
